@@ -26,7 +26,7 @@ npm -v
 3. Open the folder with VS Code
 4. Enter `npm install` in the terminal to install all dependencies
 5. Run the script with `npm start`
-6. Quit the script with CONTROL + C
+6. Quit the script with CONTROL + Q
 
 ## Output
 
