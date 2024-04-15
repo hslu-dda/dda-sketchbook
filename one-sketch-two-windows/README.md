@@ -8,5 +8,3 @@ You do all your drawing in here.
 sketch2.js opens sketch.js as a child window and then draws only the second half of the sketch.
 
 by accessing /index2.html in your browser and allowing popups, both windows will open as new tabs, which you can drag out into two separate windows.
-
-

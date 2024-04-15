@@ -1,0 +1,16 @@
+{
+  "name": "openai-image-collection",
+  "version": "1.0.0",
+  "description": "A web server that calls the openai api, generates images and saves them in a local directory",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Max Frischknecht",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "node-fetch": "^2.7.0"
+  }
+}
