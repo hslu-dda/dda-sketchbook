@@ -15,7 +15,7 @@ function draw() {
   // you can then access the canvas from sketch.js
   if (mainWindow.mainCanvas) {
     // draw the canvas as image and crop to only show the bottom half
-    image(mainWindow.mainCanvas, 0, 0, 1920, 1080, 0, 1080, 1920, 1080);
+    image(mainWindow.mainCanvas, 0, 0, 1920, 1080, 1920, 0, 1920 * 2, 1080);
   }
 }
 

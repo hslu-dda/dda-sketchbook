@@ -11,7 +11,7 @@ window.parentClicked = false;
 function setup() {
   // store canvas in our variable
   // note the doubling of the pixels for both screens
-  mainCanvas = createCanvas(1920, 2160);
+  mainCanvas = createCanvas(1920 * 3, 1000);
 
   pixelDensity(1);
   noStroke();
@@ -21,9 +21,7 @@ function setup() {
 function draw() {
   // draw your things here
   for (let y = 0; y < height; y += 100) {
-    fill(
-      lerpColor(color("darkblue"), color("orange"), map(y, 0, height, 0, 1))
-    );
+    fill(lerpColor(color("darkblue"), color("orange"), map(y, 0, height, 0, 1)));
     rect(0, y, width, y + 100);
     fill(255);
     text(y, 50, y);
